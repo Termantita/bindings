@@ -12257,7 +12257,7 @@ class PlayerObject : GameObject, AnimatedSpriteDelegate {
 	virtual void setFlipX(bool) = win 0x3807a0, m1 0x39a480;
 	virtual void setFlipY(bool);
 	virtual void resetObject() = m1 0x390ae4;
-	virtual cocos2d::CCPoint getRealPosition() = m1 0x398604;
+	virtual cocos2d::CCPoint getRealPosition() = win 0x37bc30, m1 0x398604;
 	virtual TodoReturn getOrientedBox() = m1 0x3997ac, imac 0x424d80;
 	virtual TodoReturn getObjectRotation() = m1 0x3997d8, imac 0x424da0;
 	virtual void animationFinished(char const*) = win 0x3808b0, m1 0x39a5d0;
