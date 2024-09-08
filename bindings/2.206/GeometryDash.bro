@@ -14519,7 +14519,7 @@ class PlayerObject : GameObject, AnimatedSpriteDelegate {
 	virtual void setFlipX(bool) = win 0x3807a0, m1 0x39a480, imac 0x425c50, ios 0x23e02c;
 	virtual void setFlipY(bool) = imac 0x425cc0, ios 0x23e094;
 	virtual void resetObject() = m1 0x390ae4, imac 0x41b180, ios 0x236d38;
-	virtual cocos2d::CCPoint getRealPosition() = m1 0x398604, imac 0x423a20, ios 0x23c9a4;
+	virtual cocos2d::CCPoint getRealPosition() = win 0x37bc30, m1 0x398604, imac 0x423a20, ios 0x23c9a4;
 	virtual OBB2D* getOrientedBox() = m1 0x3997ac, imac 0x424d80, ios 0x23d654;
 	virtual float getObjectRotation() = m1 0x3997d8, imac 0x424da0, ios 0x23d680;
 	virtual void animationFinished(char const*) = win 0x3808b0, m1 0x39a5d0, imac 0x425df0, ios 0x23e0b8;
